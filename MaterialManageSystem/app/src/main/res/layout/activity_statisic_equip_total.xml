@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff2f2f2" >
+    <include android:id="@+id/top" layout="@layout/common_title_bar" />
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/linearLayout_line"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="match_parent" />
+    </LinearLayout>

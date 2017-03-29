@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/location_list_view_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="#ffffffff" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="装备检查"
+        android:textSize="@dimen/px42"
+        android:textColor="#ff333333"
+        android:padding="@dimen/px24"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#66666666"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:background="#ffffffff"
+        android:padding="@dimen/px24"
+        android:minHeight="@dimen/px96"
+        android:layout_height="wrap_content" >
+        <ImageView
+            android:id="@+id/data_icon"
+            android:layout_width="@dimen/px48"
+            android:layout_height="@dimen/px48"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher" />
+        <TextView
+            android:layout_toRightOf="@id/data_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="任务任务任务任务任务任务任务任务任务任务任务任务任务任务任务任务任务"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px24"
+            android:textColor="#ff888888"
+            android:textSize="@dimen/px32"
+            />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#66666666"/>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:background="#ffffffff"
+        android:padding="@dimen/px24"
+        android:minHeight="@dimen/px96"
+        android:layout_height="wrap_content" >
+        <ImageView
+            android:id="@+id/name_icon"
+            android:layout_width="@dimen/px48"
+            android:layout_height="@dimen/px48"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher" />
+        <TextView
+            android:layout_toRightOf="@id/name_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="任务任务任务任务任务任务任务任务任务任务任务任务任务任务任务任务任务"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px24"
+            android:textColor="#ff888888"
+            android:textSize="@dimen/px32"
+            />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#66666666"/>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:background="#ffffffff"
+        android:padding="@dimen/px24"
+        android:minHeight="@dimen/px96"
+        android:layout_height="wrap_content" >
+        <ImageView
+            android:id="@+id/time_icon"
+            android:layout_width="@dimen/px48"
+            android:layout_height="@dimen/px48"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher" />
+        <TextView
+            android:layout_toRightOf="@id/time_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="任务任务任务任务任务任务任务任务任务任务任务任务任务任务任务任务任务"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px24"
+            android:textColor="#ff888888"
+            android:textSize="@dimen/px32"
+            />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#66666666"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/px108"
+    android:padding="@dimen/px24"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="#ffffffff" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_deal_border"
+            android:text="处理"
+            android:layout_alignParentRight="true"
+            />
+
+        
+    </RelativeLayout>
+
+       <View 
+           android:layout_width="match_parent"
+           android:layout_height="1px"
+           android:background="#66666666"
+           />
+    </LinearLayout>
+

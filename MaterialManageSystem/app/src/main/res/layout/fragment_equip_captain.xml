@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:background="#fff2f2f2"
+    android:layout_height="fill_parent" >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="@dimen/px32"
+        android:background="#55888888"
+        />
+    <ListView
+        android:id="@+id/unitList"
+        android:dividerHeight="1px"
+        android:divider="#66666666"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

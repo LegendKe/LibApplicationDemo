@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <com.baidu.mapapi.map.MapView
+                android:id="@+id/bmapView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/tv_datetime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dip"
+                    android:background="#FFFFFF"
+                    android:textColor="#0000D8" />
+
+                <Button
+                    android:id="@+id/btn_person"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/tv_datetime"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dip"
+                    android:background="#FFFFFF"
+                    android:text="选择车辆"
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/btn_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/btn_person"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dip"
+                    android:background="#FFFFFF"
+                    android:text="选择日期"
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/btn_isprocessed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/btn_date"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="10dip"
+                    android:background="#FFFFFF"
+                    android:text="纠偏"
+                    android:textColor="#000000" />
+
+            </RelativeLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:background="#66666666"
+        android:visibility="gone"
+        android:id="@+id/maskView"
+        android:layout_height="match_parent"/>
+</FrameLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <include android:id="@+id/top"
+        layout="@layout/common_title_bar" />
+    <hz.framework.android.View.HorizontalListView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px96"
+        android:id="@+id/bottomMenu"
+        android:layout_alignParentBottom="true"
+        >
+    </hz.framework.android.View.HorizontalListView>
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/chart1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomMenu"
+        android:layout_below="@id/top"
+        />
+    
+
+
+
+
+</RelativeLayout>

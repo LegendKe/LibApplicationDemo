@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:background="#fff2f2f2"
+    android:layout_height="fill_parent" >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="@dimen/px32"
+        android:background="#55888888"
+        />
+    <RelativeLayout
+        android:id="@+id/equip_add"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px108"
+        android:background="#ffffffff"
+        android:clickable="true"
+        android:padding="10dp" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px20"
+            android:gravity="center"
+            android:text="装备录入"
+            android:textColor="#ff888888"
+            android:textSize="@dimen/px32" />
+
+        <ImageView
+            android:layout_width="@dimen/px40"
+            android:layout_height="@dimen/px40"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/arrow_right" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#66666666"
+        />
+    <RelativeLayout
+        android:id="@+id/equip_out"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px108"
+        android:background="#ffffffff"
+        android:clickable="true"
+        android:padding="10dp" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px20"
+            android:gravity="center"
+            android:text="装备出库"
+            android:textColor="#ff888888"
+            android:textSize="@dimen/px32" />
+
+        <ImageView
+            android:layout_width="@dimen/px40"
+            android:layout_height="@dimen/px40"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/arrow_right" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#66666666"
+        />
+    <RelativeLayout
+        android:id="@+id/equip_in"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px108"
+        android:background="#ffffffff"
+        android:clickable="true"
+        android:padding="10dp" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px20"
+            android:gravity="center"
+            android:text="装备归还"
+            android:textColor="#ff888888"
+            android:textSize="@dimen/px32" />
+
+        <ImageView
+            android:layout_width="@dimen/px40"
+            android:layout_height="@dimen/px40"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/arrow_right" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#66666666"
+        />
+    <RelativeLayout
+        android:id="@+id/equip_fix"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px108"
+        android:background="#ffffffff"
+        android:clickable="true"
+        android:padding="10dp" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px20"
+            android:gravity="center"
+            android:text="装备维保"
+            android:textColor="#ff888888"
+            android:textSize="@dimen/px32" />
+
+        <ImageView
+            android:layout_width="@dimen/px40"
+            android:layout_height="@dimen/px40"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/arrow_right" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#66666666"
+        />
+    <RelativeLayout
+        android:id="@+id/equip_discard"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px108"
+        android:background="#ffffffff"
+        android:clickable="true"
+        android:padding="10dp" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px20"
+            android:gravity="center"
+            android:text="装备报废"
+            android:textColor="#ff888888"
+            android:textSize="@dimen/px32" />
+
+        <ImageView
+            android:layout_width="@dimen/px40"
+            android:layout_height="@dimen/px40"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/arrow_right" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#66666666"
+        />
+</LinearLayout>

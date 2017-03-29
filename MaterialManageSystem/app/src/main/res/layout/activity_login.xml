@@ -1,0 +1,172 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff2da0fb" >
+
+    <ImageView
+        android:id="@+id/logo_and_name"
+        android:layout_width="@dimen/px500"
+        android:layout_height="@dimen/px400"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/px100"
+        android:scaleType="centerInside"
+        />
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal" >
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="智慧消防物联网"
+        android:layout_marginTop="@dimen/px100"
+        android:textColor="#ffffffff"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/px55"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="巡更终端"
+        android:textColor="#ffffffff"
+        android:layout_marginTop="@dimen/px12"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/px55"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F.Patrol"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/px120"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/logo_and_name"
+        android:layout_marginTop="@dimen/px90"
+        android:gravity="center_horizontal" >
+
+        <FrameLayout 
+            android:layout_width="@dimen/px600"
+            android:layout_height="@dimen/px95"
+            >
+            <EditText
+            android:id="@+id/account"
+            android:layout_width="@dimen/px600"
+            android:layout_height="@dimen/px95"
+            android:background="@drawable/login_input_up"
+            android:hint="用户名"
+            android:paddingLeft="@dimen/px100"
+            android:textColor="#ffa8abb1"
+            android:textColorHint="#ffa8abb1"
+            android:textSize="@dimen/px30" />
+        <LinearLayout 
+                android:layout_width="@dimen/px100"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                >
+                <ImageView 
+                android:layout_width="@dimen/px48"
+                android:layout_height="@dimen/px48"
+                android:src="@drawable/login_username"
+                android:scaleType="centerInside"
+                />
+            </LinearLayout>
+            </FrameLayout>
+        
+            
+<View 
+    android:layout_width="@dimen/px600"
+    android:layout_height="1px"
+    android:background="#66666666"
+    />
+        <FrameLayout 
+            android:layout_width="@dimen/px600"
+            android:layout_height="@dimen/px95"
+            >
+            <EditText
+            android:id="@+id/password"
+            android:layout_width="@dimen/px600"
+            android:layout_height="@dimen/px95"
+            android:background="@drawable/login_input_down"
+            android:hint="密码"
+            android:inputType="textPassword"
+            android:paddingLeft="@dimen/px100"
+            android:textColor="#ffa8abb1"
+            android:textColorHint="#ffa8abb1"
+            android:textSize="@dimen/px30" />
+            <LinearLayout 
+                android:layout_width="@dimen/px100"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                >
+                <ImageView 
+                android:layout_width="@dimen/px48"
+                android:layout_height="@dimen/px48"
+                android:src="@drawable/login_password"
+                android:scaleType="centerInside"
+                />
+            </LinearLayout>
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/password_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <CheckBox
+                android:id="@+id/remember_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:checked="true"
+                android:text="记住密码"
+                android:textColor="#ffffffff"
+                android:textSize="@dimen/px28" />
+
+            <TextView
+                android:id="@+id/forget_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="4dp"
+                android:text="忘记密码"
+                android:textColor="#ffffffff"
+                android:textSize="@dimen/px28" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="@dimen/px600"
+            android:layout_height="@dimen/px95"
+            android:layout_below="@+id/password_options"
+            android:layout_marginTop="@dimen/px60"
+            android:background="@drawable/login_btn"
+            android:text="立即登陆"
+            android:textColor="#ff3697dc"
+            android:textSize="@dimen/px32" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="@dimen/px500" 
+	android:layout_height="@dimen/px240"
+	android:gravity="center_vertical"
+	android:layout_gravity="center"
+	android:background="@drawable/shape_watting_dialog">
+	<ImageView 
+		android:id="@+id/img"
+		android:layout_width="@dimen/px128" 
+		android:layout_height="@dimen/px128" 
+		android:layout_gravity="center"
+		android:src="@drawable/waiting_up"
+		android:layout_centerInParent="true"
+		android:scaleType="fitXY"
+		/>
+	<TextView 
+	    android:id="@+id/dialog_title"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="@dimen/px24"
+		android:textColor="#ffb1b1b1"
+		android:layout_below="@id/img"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="@dimen/px24"
+		android:text="请稍候" />
+</RelativeLayout>
